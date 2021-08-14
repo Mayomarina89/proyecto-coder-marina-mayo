@@ -1,0 +1,192 @@
+html {
+  font-size: 62.5%;
+}
+
+/*Barra de Navegacion**/
+
+.BarraDeNavegacion {
+  background-color: #bae2cf;
+  color: white;
+}
+
+.textosgenerales {
+  font-size: 1.5rem;
+  font-family: "poppins";
+}
+
+.nav__lista a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "poppins";
+}
+
+/*Portada inicial**/
+.contenedorCabecera {
+  /*  background-image: url("imagenes/portadaweb.jpeg"); **/
+  background-image: linear-gradient(#bacac0, #bacac0, #f2d2b6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.contenedorCabecera__titulo {
+  font-size: 8rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: white;
+}
+
+.contenedorCabecera__titulo--subtitulo {
+  font-size: 4rem;
+}
+
+.contenedorCabecera__titulo--parrafo {
+  font-size: 2rem;
+}
+
+/*cuerpo de la página de inicio**/
+
+.seccionesSecundarias {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.seccionesSecundarias__titulos {
+  font-size: 4rem;
+  color: #bacac0;
+  text-align: center;
+  padding: 10px;
+}
+
+.seccionesSecundarias__titulos--subtitulo {
+  font-size: 2rem;
+}
+
+.elementosEnLinea {
+  display: inline;
+  margin-left: 80px;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.espaciado {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #f2ad94;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: "poppins";
+  color: white;
+}
+
+/*fondo para formulario**/
+#formulariotags {
+  background-color: #f2d2b6;
+  color: #193b59;
+  padding: 20px;
+}
+
+/*pie de página**/
+footer {
+  background-color: #9cc0cd;
+  color: white;
+}
+
+/*GRIDS QUIEN SOY**/
+
+#contenedorgeneral {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 100px 500px 100px;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background-color: #bae2cf;
+}
+
+.header nav {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+}
+
+.main main {
+  width: 60%;
+  justify-content: center;
+  padding: 30px;
+  align-self: center;
+}
+
+.main div {
+  align-self: center;
+  text-align: center;
+}
+.footer {
+  grid-area: footer;
+  text-align: center;
+}
+
+/*INDEX FLEX**/
+
+.contenedorDeSeccion {
+  display: grid;
+  grid-template-areas: "seccion1 seccion2";
+}
+
+.seccion1 {
+  text-align: center;
+}
+
+.seccion2 {
+  text-align: center;
+}
+
+.contenedorlistas {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.contenedorDeSeccionservicio {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*EFECTOS**/
+.cajaImg {
+  border-radius: 8px;
+  filter: grayscale(1);
+}
+
+.cajaImg:hover {
+  filter: none;
+}
+
+.button:hover {
+  background-color: #193b59;
+}

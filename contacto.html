@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactame</title>
+    <!--Tipografías-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Archivo CSS-->
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <!--Barra de navegación-->
+    <section class="header">
+      <div>
+        <a href="./index.html"
+          ><img src="imagenes/logomini.png" alt="Logo"
+        /></a>
+      </div>
+      <nav class="nav__lista">
+        <a href="./index.html">Inicio</a>
+        <a href="./quiensoy.html">Quien Soy</a>
+        <a href="./servicios.html">Servicios</a>
+        <a href="./trabajos.html">Mis Trabajos</a>
+        <a href="./contacto.html">Contacto</a>
+      </nav>
+    </section>
+
+    <!--Titulo de la página-->
+    <header>
+      <h1 class="seccionesSecundarias seccionesSecundarias__titulos">
+        Contactame
+      </h1>
+    </header>
+
+    <!--Formulario de contacto-->
+    <section
+      class="seccionesSecundarias seccionesSecundarias__titulos--subtitulo"
+    >
+      <form id="formulariotags">
+        <fieldset>
+          <legend>Contacto</legend>
+
+          <!--Nombre y Apellido-->
+          <div>
+            <label for="nombreyapellido">Nombre y Apellido</label>
+            <input type="text" name="nombreyapellido" />
+          </div>
+
+          <!--Email-->
+          <div>
+            <label for="direcciondemail">Email</label>
+            <input type="email" name="mail" />
+          </div>
+
+          <!--Genero-->
+          <div>
+            <label for="genero">Género</label>
+            <select name="genero" id="genero">
+              <option value="masc">Masculino</option>
+              <option value="fem">Femenino</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+
+          <!--Tipo de cliente-->
+          <div>
+            <label for="tipodecliente">Cliente</label>
+            <br />
+            <input
+              type="radio"
+              name="tipodecliente"
+              id="Empresa"
+              value="empresa"
+            />
+            <label for="empresa">Empresa</label>
+
+            <input
+              type="radio"
+              name="tipodecliente"
+              id="Emprendedor"
+              value="emprendedor"
+            />
+            <label for="emprendedor">Emprendedor</label>
+
+            <input
+              type="radio"
+              name="tipodecliente"
+              id="Particular"
+              value="particular"
+            />
+            <label for="particular">Particular</label>
+          </div>
+
+          <!--Suscripción a Newsletter-->
+          <div>
+            <label for="suscripcion">
+              ¿Deseas suscribirte al <span lang="en">newsletter</span>?</label
+            >
+            <input
+              type="checkbox"
+              id="suscripcion"
+              name="aceptanewsletter"
+              value="si"
+            />
+          </div>
+
+          <!--Cuadro de mensaje-->
+          <div>
+            <label for="dejatumensaje">Dejame tu mensaje...</label>
+            <textarea
+              name="dejatumensaje"
+              id="dejatumensaje"
+              cols="30"
+              rows="10"
+            >
+            </textarea>
+            <br />
+            <!--botones enviar y borrar-->
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <!--redes sociales-->
+    <section class="seccionesSecundarias">
+      <h2 class="seccionesSecundarias__titulos">Seguinos en redes sociales</h2>
+      <ul class="centrado">
+        <li class="elementosEnLinea seccionesSecundarias__titulos--subtitulo">
+          <a href="https://www.instagram.com/mayomarina89" target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li class="elementosEnLinea seccionesSecundarias__titulos--subtitulo">
+          <a href="https://www.linkedin.com/in/marina-mayo/" target="_blank"
+            >Linkedin</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <footer
+      class="seccionesSecundarias seccionesSecundarias__titulos--subtitulos"
+    >
+      <p class="centrado">Desarrollado por Esquina Estudio - 2021</p>
+    </footer>
+  </body>
+</html>
