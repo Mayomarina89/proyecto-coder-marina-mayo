@@ -23,8 +23,7 @@ html {
 
 /*Portada inicial**/
 .contenedorCabecera {
-  /*  background-image: url("imagenes/portadaweb.jpeg"); **/
-  background-image: linear-gradient(#bacac0, #bacac0, #f2d2b6);
+  background-image: url("imagenes/portadaweb.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px;
