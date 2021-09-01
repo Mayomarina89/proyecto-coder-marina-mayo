@@ -1,0 +1,14 @@
+nav {
+  color: $damasco-color;
+  background-color: $color-nav-footer;
+  font: $font-text $blue-color;
+}
+
+footer {
+  background-color: $color-nav-footer;
+  text-align: center;
+  font: $font-text;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
