@@ -33,7 +33,7 @@ ul {
   font: 36px/600 "poppins" #193b59; }
 
 .haeder {
-  background-image: url("/imagenes/portadaweb.jpeg");
+  background-image: url("../imagenes/portadaweb.jpeg");
   max-width: 100%;
   background-size: cover; }
 
