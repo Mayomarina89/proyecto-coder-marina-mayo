@@ -17,7 +17,7 @@ footer {
 
 body {
   font: 16px "poppins";
-  height: 100%; }
+  min-height: 100vh; }
 
 ul {
   list-style: none; }
@@ -31,6 +31,9 @@ ul {
 .otros_titulos {
   text-align: center;
   font: 36px/600 "poppins" #193b59; }
+
+.aire {
+  margin: 100 0 100 0; }
 
 .haeder {
   background-image: url("../imagenes/portadaweb.jpeg");

@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="completá el formulario y contactame">
-    <meta name="keywords" content="formulario, contacto, contactame, redes sociales">
+    <meta name="description" content="completá el formulario y contactame" />
+    <meta
+      name="keywords"
+      content="formulario, contacto, contactame, redes sociales"
+    />
     <title>Contactame</title>
     <!--Tipografías-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -73,78 +76,81 @@
     </section>
     <!--Titulo de la página-->
     <header>
-      <h1 class="titulos text-center py-4">
-        Contactame
-      </h1>
+      <h1 class="titulos text-center py-5 container">Contactame</h1>
     </header>
 
     <!--FORMULARIO-->
-    <section>
-        <form class="container">
-          <div class="form-row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre" required>
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Apellido" required>
-            </div>
+    <section class="container">
+      <form class="container pb-5">
+        <div class="form-row">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nombre"
+              required
+            />
           </div>
-          <div class="form-row">
-            <div class="form-group col-md-6 mt-4">
-              <label for="inputEmail4">Email</label>
-              <input type="email" class="form-control" id="inputEmail4" required>
-            </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Apellido"
+              required
+            />
           </div>
-          <div class="form-group">
-            <label for="inputAddress">Dirección</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Calle, nro.">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6 mt-4">
+            <label for="inputEmail4">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail4"
+              required
+            />
           </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputCity">Ciudad</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="form-group col-md-4">
-              <label for="inputState">Tipo de cliente</label>
-              <select id="inputState" class="form-control">
-                <option selected>Emprendedor</option>
-                <option>Empresa</option>
-              </select>
-            </div>
-            <div class="form-group col-md-2">
-              <label for="inputZip">Codigo Postal</label>
-              <input type="text" class="form-control" id="inputZip">
-            </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Dirección</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="Calle, nro."
+          />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity" />
           </div>
-          <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Suscribite a nuestro newsletter
-              </label>
-            </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Tipo de cliente</label>
+            <select id="inputState" class="form-control">
+              <option selected>Emprendedor</option>
+              <option>Empresa</option>
+            </select>
           </div>
-          <button type="submit" class="btn btn-secondary mb-4">Enviar</button>
-        </form>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Codigo Postal</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Suscribite a nuestro newsletter
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-secondary mb-4">Enviar</button>
+      </form>
+    </section>
 
-    <!-- redes sociales
-    <section class="seccionesSecundarias">
-      <h2 class="seccionesSecundarias__titulos">Seguinos en redes sociales</h2>
-      <ul class="centrado">
-        <li class="elementosEnLinea seccionesSecundarias__titulos--subtitulo">
-          <a href="https://www.instagram.com/mayomarina89" target="_blank"
-            >Instagram</a
-          >
-        </li>
-        <li class="elementosEnLinea seccionesSecundarias__titulos--subtitulo">
-          <a href="https://www.linkedin.com/in/marina-mayo/" target="_blank"
-            >Linkedin</a
-          >
-        </li>
-      </ul>
-    </section> -->
-
-    <footer class="footer fixed-bottom mt-4">
+    <!--FOOTER-->
+    <footer class="footer mt-4 pb-3">
       <p class="pt-3">Desarrollado por Esquina Estudio - 2021</p>
     </footer>
 
